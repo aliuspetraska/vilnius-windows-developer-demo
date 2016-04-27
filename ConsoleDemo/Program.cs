@@ -18,6 +18,10 @@ namespace ConsoleDemo
 
             Console.WriteLine();
             Console.WriteLine("Done.");
+
+            // xbuild /p:Configuration=Release ./ConsoleDemo.csproj
+
+            // mono ./bin/Release/ConsoleDemo.exe
         }
     }
 }
