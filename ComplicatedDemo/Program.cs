@@ -7,6 +7,10 @@ using System.Threading;
 
 namespace ComplicatedDemo
 {
+    // xbuild /p:Configuration=Release ./ComplicatedDemo.csproj
+
+    // mono ./bin/Release/ComplicatedDemo.exe
+
     class MainClass
     {
         public static void Main(string[] args)
