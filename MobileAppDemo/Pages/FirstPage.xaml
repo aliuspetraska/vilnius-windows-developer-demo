@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage x:Class="MobileAppDemo.FirstPage" 
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="First Page" NavigationPage.BackButtonTitle="Back">
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Image Grid.RowSpan="2" 
+                Source="Backgrounds/nat-friedman-ceo-blur.png" 
+                Aspect="AspectFill" />
+            <StackLayout Grid.Row="1" Padding="20">
+                <Button
+                    Text="Navigate to Second Page"
+                    TextColor="White"
+                    BorderWidth="1"
+                    BorderRadius="4"
+                    BorderColor="White"
+                    HeightRequest="54"
+                    Clicked="NavigateToSecondPage" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
