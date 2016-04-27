@@ -5,7 +5,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo #1", "Demo #1", "{51D9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDemo", "ConsoleDemo\ConsoleDemo.csproj", "{C6EDE4E0-D16C-4A32-A290-A824B6487520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplicatedDemo", "ConsoleDemo\ComplicatedDemo\ComplicatedDemo.csproj", "{CDCE8AF4-4DB5-4EB9-A78C-9E8B9FFB11B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplicatedDemo", "ComplicatedDemo\ComplicatedDemo.csproj", "{CDCE8AF4-4DB5-4EB9-A78C-9E8B9FFB11B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo #2", "Demo #2", "{683F0747-A6B5-4588-B114-9C4AFCB7D19E}"
 EndProject
