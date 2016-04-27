@@ -3,6 +3,10 @@ using System.Threading;
 
 namespace ConsoleDemo
 {
+    // xbuild /p:Configuration=Release ./ConsoleDemo.csproj
+
+    // mono ./bin/Release/ConsoleDemo.exe
+
     class MainClass
     {
         public static void Main(string[] args)
@@ -19,9 +23,7 @@ namespace ConsoleDemo
             Console.WriteLine();
             Console.WriteLine("Done.");
 
-            // xbuild /p:Configuration=Release ./ConsoleDemo.csproj
 
-            // mono ./bin/Release/ConsoleDemo.exe
         }
     }
 }
