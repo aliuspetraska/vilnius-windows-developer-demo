@@ -23,8 +23,6 @@ namespace ComplicatedDemo
             var response = client.Execute(request);
             var content = response.Content;
 
-			Console.WriteLine(response.Content);
-
             // write to file (let's make things more complicated)
             File.WriteAllText("Response.txt", content);
 
