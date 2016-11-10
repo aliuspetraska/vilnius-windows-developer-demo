@@ -16,12 +16,14 @@ namespace ComplicatedDemo
         public static void Main(string[] args)
         {
             // http://restsharp.org/
-            var client = new RestClient("http://www.lrt.lt");
-            var request = new RestRequest("media/RDS/Radio/radio.txt", Method.GET);
+            var client = new RestClient("http://petraska.lt/");
+            var request = new RestRequest("social-feed-wall/lrt.json", Method.GET);
 
             // execute the request
             var response = client.Execute(request);
             var content = response.Content;
+
+			Console.WriteLine(response.Content);
 
             // write to file (let's make things more complicated)
             File.WriteAllText("Response.txt", content);

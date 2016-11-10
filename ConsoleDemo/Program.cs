@@ -22,8 +22,6 @@ namespace ConsoleDemo
 
             Console.WriteLine();
             Console.WriteLine("Done.");
-
-
         }
     }
 }
